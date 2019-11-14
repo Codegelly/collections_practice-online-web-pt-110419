@@ -56,7 +56,7 @@ def add_s(words)
     else  
     words << "#{word} + s"
     end 
-    puts word
+    return word
   end 
 end
   
