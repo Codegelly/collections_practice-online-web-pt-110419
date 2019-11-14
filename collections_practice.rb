@@ -54,8 +54,9 @@ def add_s(words)
   words.collect.with_index do |word, index|
     if word == 1 
     else  
-    words << "#{word+"s"}"
+    words << "#{word} + #{"s"}"
     end 
+    puts word
   end 
 end
   
