@@ -1,3 +1,4 @@
+require "pry" 
 def sort_array_asc (integers)
   integers.sort do |a, b|
    a <=> b 
@@ -52,6 +53,7 @@ end
 
 def add_s(words)
   words.collect.with_index do |word, index|
+    binding.pry
     if index == 1 
     else  
     words << "#{word} + s"
