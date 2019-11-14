@@ -57,9 +57,8 @@ def add_s(words)
     if index == 1 
       word 
     else  
-    word + "s"
+      word + "s"
     end 
-    return word
   end 
 end
   
