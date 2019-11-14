@@ -55,8 +55,9 @@ def add_s(words)
   words.collect.with_index do |word, index|
     binding.pry
     if index == 1 
+      word 
     else  
-    words << "#{word} + s"
+    word + "s"
     end 
     return word
   end 
